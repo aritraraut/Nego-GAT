@@ -1,0 +1,279 @@
+---------------------------------------------
+dialogue : 1
+turn:
+ hi. i am interested in your bike. 
+generated belief state: <sos_b> <eos_b>
+generated negotiation strategy:  <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller] [liwc_certainty]  <eos_ns>
+final_context:   hi. i am interested in your bike.  <sos_b> <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller] [liwc_certainty]  <eos_ns> <sos_a>
+generated ar: <sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> great! it s in great condition and i m looking to get a little more than [value_price_ratio] for it. i m looking to sell it for <price>_1.0. <eos_r>
+------------------------------------------------------------
+turn:
+have you used it at all?
+generated belief state: <sos_b> <eos_b>
+generated negotiation strategy:  <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns>
+final_context:   hi. i am interested in your bike.  <sos_b> <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller] [liwc_certainty]  <eos_ns> <sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> great! it s in great condition and i m looking to get a little more than [value_price_ratio] for it. i m looking to sell it for <price>_1.0. <eos_r> have you used it at all? <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a>
+generated ar: <sos_a> [common] [disagree] <eos_a> <sos_r> i ve used it only a few times and it s in excellent condition. i ve only used it twice. <eos_r>
+------------------------------------------------------------
+turn:
+But the price is a bit high for me.
+generated belief state: <sos_b> <eos_b>
+generated negotiation strategy:  <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [who_propose] [personal_concern_seller]  <eos_ns>
+final_context:   hi. i am interested in your bike.  <sos_b> <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller] [liwc_certainty]  <eos_ns> <sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> great! it s in great condition and i m looking to get a little more than [value_price_ratio] for it. i m looking to sell it for <price>_1.0. <eos_r> have you used it at all? <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a> [common] [disagree] <eos_a> <sos_r> i ve used it only a few times and it s in excellent condition. i ve only used it twice. <eos_r> But the price is a bit high for me. <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [who_propose] [personal_concern_seller]  <eos_ns> <sos_a>
+generated ar: <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r>
+------------------------------------------------------------
+turn:
+No the least I can do is <price>_0.0
+generated belief state: <sos_b> [common] Price_ratio 0.0 <eos_b>
+generated negotiation strategy:  <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns>
+final_context:   hi. i am interested in your bike.  <sos_b> <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller] [liwc_certainty]  <eos_ns> <sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> great! it s in great condition and i m looking to get a little more than [value_price_ratio] for it. i m looking to sell it for <price>_1.0. <eos_r> have you used it at all? <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a> [common] [disagree] <eos_a> <sos_r> i ve used it only a few times and it s in excellent condition. i ve only used it twice. <eos_r> But the price is a bit high for me. <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [who_propose] [personal_concern_seller]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> No the least I can do is <price>_0.0 <sos_b> [common] Price_ratio 0.0 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a>
+generated ar: <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r>
+------------------------------------------------------------
+turn:
+no I can not go beyond <price>_0.2
+generated belief state: <sos_b> [common] Price_ratio 0.2 <eos_b>
+generated negotiation strategy:  <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller] [liwc_informal]  <eos_ns>
+final_context:   hi. i am interested in your bike.  <sos_b> <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller] [liwc_certainty]  <eos_ns> <sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> great! it s in great condition and i m looking to get a little more than [value_price_ratio] for it. i m looking to sell it for <price>_1.0. <eos_r> have you used it at all? <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a> [common] [disagree] <eos_a> <sos_r> i ve used it only a few times and it s in excellent condition. i ve only used it twice. <eos_r> But the price is a bit high for me. <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [who_propose] [personal_concern_seller]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> No the least I can do is <price>_0.0 <sos_b> [common] Price_ratio 0.0 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> no I can not go beyond <price>_0.2 <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller] [liwc_informal]  <eos_ns> <sos_a>
+generated ar: <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> well i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r>
+------------------------------------------------------------
+turn:
+no . are you willing to lower the price at all?
+generated belief state: <sos_b> [common] Price_ratio 0.2 <eos_b>
+generated negotiation strategy:  <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller] [liwc_informal]  <eos_ns>
+final_context:   hi. i am interested in your bike.  <sos_b> <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller] [liwc_certainty]  <eos_ns> <sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> great! it s in great condition and i m looking to get a little more than [value_price_ratio] for it. i m looking to sell it for <price>_1.0. <eos_r> have you used it at all? <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a> [common] [disagree] <eos_a> <sos_r> i ve used it only a few times and it s in excellent condition. i ve only used it twice. <eos_r> But the price is a bit high for me. <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [who_propose] [personal_concern_seller]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> No the least I can do is <price>_0.0 <sos_b> [common] Price_ratio 0.0 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> no I can not go beyond <price>_0.2 <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller] [liwc_informal]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> well i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> no. are you willing to lower the price at all? <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller] [liwc_informal]  <eos_ns> <sos_a>
+generated ar: <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> well i can do <price>_0.3. it s a great bike. i ve had it a few times and it s well maintained. how about [value_price_ratio]? <eos_r>
+------------------------------------------------------------
+turn:
+okay, that's a fair deal i would say.
+generated belief state: <sos_b> [common] Price_ratio 0.2 <eos_b>
+generated negotiation strategy:  <sos_ns>  [seller_pos_sentiment] [number_of_diff_dic_pos] [politeness_seller_gratitude]  <eos_ns>
+final_context:   hi. i am interested in your bike.  <sos_b> <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller] [liwc_certainty]  <eos_ns> <sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> great! it s in great condition and i m looking to get a little more than [value_price_ratio] for it. i m looking to sell it for <price>_1.0. <eos_r> have you used it at all? <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a> [common] [disagree] <eos_a> <sos_r> i ve used it only a few times and it s in excellent condition. i ve only used it twice. <eos_r> But the price is a bit high for me. <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [who_propose] [personal_concern_seller]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> No the least I can do is <price>_0.0 <sos_b> [common] Price_ratio 0.0 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> no I can not go beyond <price>_0.2 <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller] [liwc_informal]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> well i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> no. are you willing to lower the price at all? <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller] [liwc_informal]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> well i can do <price>_0.3. it s a great bike. i ve had it a few times and it s well maintained. how about [value_price_ratio]? <eos_r> okay, that's a fair deal i would say. <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [number_of_diff_dic_pos] [politeness_seller_gratitude]  <eos_ns> <sos_a>
+generated ar: <sos_a> [common] [unknown] <eos_a> <sos_r> sounds good. thanks! <eos_r>
+------------------------------------------------------------
+turn:
+then can we finalize the deal?
+generated belief state: <sos_b> [common] Price_ratio 0.2 <eos_b>
+generated negotiation strategy:  <sos_ns>  [seller_pos_sentiment] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [liwc_informal]  <eos_ns>
+final_context:  _dic_pos] [number_of_diff_dic_neg] [personal_concern_seller] [liwc_certainty]  <eos_ns> <sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> great! it s in great condition and i m looking to get a little more than [value_price_ratio] for it. i m looking to sell it for <price>_1.0. <eos_r> have you used it at all? <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a> [common] [disagree] <eos_a> <sos_r> i ve used it only a few times and it s in excellent condition. i ve only used it twice. <eos_r> But the price is a bit high for me. <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [who_propose] [personal_concern_seller]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> No the least I can do is <price>_0.0 <sos_b> [common] Price_ratio 0.0 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> no I can not go beyond <price>_0.2 <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller] [liwc_informal]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> well i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> no. are you willing to lower the price at all? <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller] [liwc_informal]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> well i can do <price>_0.3. it s a great bike. i ve had it a few times and it s well maintained. how about [value_price_ratio]? <eos_r> okay, that's a fair deal i would say. <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [number_of_diff_dic_pos] [politeness_seller_gratitude]  <eos_ns> <sos_a> [common] [unknown] <eos_a> <sos_r> sounds good. thanks! <eos_r> then can we finalize the deal? <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [liwc_informal]  <eos_ns> <sos_a>
+generated ar: <sos_a> [common] [unknown] <eos_a> <sos_r> alright. you ve got a deal. <eos_r>
+------------------------------------------------------------
+turn:
+woo hoo
+generated belief state: <sos_b> [common] Price_ratio 0.2 <eos_b>
+generated negotiation strategy:  <sos_ns>  []  <eos_ns>
+final_context:  >_1.0. <eos_r> have you used it at all? <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a> [common] [disagree] <eos_a> <sos_r> i ve used it only a few times and it s in excellent condition. i ve only used it twice. <eos_r> But the price is a bit high for me. <sos_b> <eos_b> <sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [who_propose] [personal_concern_seller]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> No the least I can do is <price>_0.0 <sos_b> [common] Price_ratio 0.0 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i understand. i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> no I can not go beyond <price>_0.2 <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller] [liwc_informal]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> well i can t do [value_price_ratio]. i paid a lot more for it. how about <price>_0.7? <eos_r> no. are you willing to lower the price at all? <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller] [liwc_informal]  <eos_ns> <sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> well i can do <price>_0.3. it s a great bike. i ve had it a few times and it s well maintained. how about [value_price_ratio]? <eos_r> okay, that's a fair deal i would say. <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [number_of_diff_dic_pos] [politeness_seller_gratitude]  <eos_ns> <sos_a> [common] [unknown] <eos_a> <sos_r> sounds good. thanks! <eos_r> then can we finalize the deal? <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  [seller_pos_sentiment] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [liwc_informal]  <eos_ns> <sos_a> [common] [unknown] <eos_a> <sos_r> alright. you ve got a deal. <eos_r> woo hoo <sos_b> [common] Price_ratio 0.2 <eos_b> <sos_ns>  []  <eos_ns> <sos_a>
+generated ar: <sos_a> <eos_a> <sos_r> <eos_r>
+------------------------------------------------------------
+
+---------------------------------------------
+dialogue:2
+user: hi
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [politeness_seller_greet]  <eos_ns>
+generated ar:<sos_a> [common] [intro] <eos_a> <sos_r> hello <eos_r>
+-----------------------------------------------------------------
+user: is this studio in a good area? 
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller]  <eos_ns>
+generated ar:<sos_a> [common] [inform] <eos_a> <sos_r> yes it is. it is a great place with a lot of amenities. it is located in a great area. <eos_r>
+-----------------------------------------------------------------
+user: sounds good. can i come by and take a look at it? 
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller]  <eos_ns>
+generated ar:<sos_a> [common] [inform] <eos_a> <sos_r> yes you can. you can come by and take a look at the place. <eos_r>
+-----------------------------------------------------------------
+user: are you willing to lower the price at all?
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [first_person_singular_count_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller]  <eos_ns>
+generated ar:<sos_a> [common] [inform] <eos_a> <sos_r> i can lower the price a little but i will not lower the price. <eos_r>
+-----------------------------------------------------------------
+user: how much are you willing to decrease the price?
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [first_person_singular_count_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller]  <eos_ns>
+generated ar:<sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> i can lower the price to [value_price_ratio] but i will not lower the price. <eos_r>
+-----------------------------------------------------------------
+user: how about <price>_0.0?
+generated belief state:<sos_b> [common] Price_ratio 0.0 <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [personal_concern_seller]  <eos_ns>
+generated ar:<sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i can lower the price to [value_price_ratio] but that would be my bottom dollar. <eos_r>
+-----------------------------------------------------------------
+user: please decrease the price bit lower.
+generated belief state:<sos_b> [common] Price_ratio 0.0 <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller]  <eos_ns>
+generated ar:<sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i will accept [value_price_ratio] but no lower. <eos_r>
+-----------------------------------------------------------------
+user: okay . it is okay for me too.
+generated belief state:<sos_b> [common] Price_ratio 0.0 <eos_b>
+generated negotiation strategy:<sos_ns>  []  <eos_ns>
+generated ar:<sos_a> <eos_a> <sos_r> <eos_r>
+-----------------------------------------------------------------
+user: can wee proceed then?
+generated belief state:<sos_b> [common] Price_ratio 0.0 <eos_b>
+generated negotiation strategy:<sos_ns>  []  <eos_ns>
+generated ar:<sos_a> <eos_a> <sos_r> <eos_r>
+-----------------------------------------------------------------
+---------------------------------------------
+dialogue:2
+user: hi i am very interested in this heated foot massager.
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller] [liwc_certainty]  <eos_ns>
+generated ar:<sos_a> [common] [unknown] <eos_a> <sos_r> great! it s a great product and i ve never used it. it s in perfect condition and i m only selling it because i got married months ago. <eos_r>
+-----------------------------------------------------------------
+user: How much are you asking?
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller]  <eos_ns>
+generated ar:<sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> i m asking [value_price_ratio] for it. it s a great product and i ve never used it. it s a bit higher than i m looking to pay. <eos_r>
+-----------------------------------------------------------------
+user: yes it's a bit higher than my budget.
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller] [liwc_informal]  <eos_ns>
+generated ar:<sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> well it s a bit higher than my budget. i m willing to let it go for [value_price_ratio] if you can pay cash. <eos_r>
+-----------------------------------------------------------------
+user: I can only go with <price>_0.2. I can come and pick the product tommorow.
+generated belief state:<sos_b> [common] Price_ratio 0.2 <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [assertive_count_seller] [personal_con <eos_ns>
+generated ar:<sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i think i can go with [value_price_ratio] if you can come and pick it up. i m not sure if you ll accept that. <eos_r>
+-----------------------------------------------------------------
+user: yes for sure . I am accepting this offer.
+generated belief state:<sos_b> [common] Price_ratio 0.2 <eos_b>
+generated negotiation strategy:<sos_ns>  []  <eos_ns>
+generated ar:<sos_a> <eos_a> <sos_r> <eos_r>
+-----------------------------------------------------------------
+user: then deal final?
+generated belief state:<sos_b> [common] Price_ratio 0.2 <eos_b>
+generated negotiation strategy:<sos_ns>  []  <eos_ns>
+generated ar:<sos_a> <eos_a> <sos_r> <eos_r>
+-----------------------------------------------------------------
+---------------------------------------------
+dialogue:2
+user: hi
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [politeness_seller_greet]  <eos_ns>
+generated ar:<sos_a> [common] [intro] <eos_a> <sos_r> hello <eos_r>
+-----------------------------------------------------------------
+user: Is the tire kit new?
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg]  <eos_ns>
+generated ar:<sos_a> [common] [inform] <eos_a> <sos_r> yes it is new. <eos_r>
+-----------------------------------------------------------------
+user: Great. My bro destroyed my old kit and I’m looking for new tires.
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller]  <eos_ns>
+generated ar:<sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> i am selling it for [value_price_ratio]. it is in great condition. i have only had it for <price>_1.0 months. <eos_r>
+-----------------------------------------------------------------
+user: That’s too much for a student like me. How about <price>_0.2??
+generated belief state:<sos_b> [common] Price_ratio 0.2 <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [personal_concern_seller]  <eos_ns>
+generated ar:<sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i would like to get at least [value_price_ratio] for it. i have <price>_1.0 student loans i have to pay off and i have to pay off my loans. <eos_r>
+-----------------------------------------------------------------
+user: : I can come pick it up for <price>_0.35.
+generated belief state:<sos_b> [common] Price_ratio 0.35 <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller]  <eos_ns>
+generated ar:<sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i would like to get at least [value_price_ratio] for it. i have <price>_0.5 student loans i have to pay off. <eos_r>
+-----------------------------------------------------------------
+user: I can come pick it up for <price>_0.35
+generated belief state:<sos_b> [common] Price_ratio 0.35 <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [personal_concern_seller] [liwc_informal]  <eos_ns>
+generated ar:<sos_a> [common] [unknown] <eos_a> <sos_r> okay i will accept that. i will accept that. <eos_r>
+-----------------------------------------------------------------
+---------------------------------------------
+dialogue:2
+user: hi how are you?
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [politeness_seller_gratitude] [politeness_seller_greet]  <eos_ns>
+generated ar:<sos_a> [common] [unknown] <eos_a> <sos_r> hi i m well thanks for asking. are you interested in my iphone? <eos_r>
+-----------------------------------------------------------------
+user: Is the kit good?
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [liwc_certainty]  <eos_ns>
+generated ar:<sos_a> [common] [inform] <eos_a> <sos_r> yes it is in great condition. it has been completely unlocked and has a brand new screen protector. <eos_r>
+-----------------------------------------------------------------
+user: okay how much you willing to sell.
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [who_propose] [personal_concern_ <eos_ns>
+generated ar:<sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> i would like [value_price_ratio] for it. it is in great condition and i am willing to come down to <price>_1.0 <eos_r>
+-----------------------------------------------------------------
+user: : i will give you <price>_0.0.
+generated belief state:<sos_b> [common] Price_ratio 0.0 <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [hedge_count_seller] [assertive_count_seller] [personal_concern_seller]  <eos_ns>
+generated ar:<sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i think you will really like the phone. i will agree to [value_price_ratio] for the phone. <eos_r>
+-----------------------------------------------------------------
+user: <price>_0.1
+generated belief state:<sos_b> [common] Price_ratio 0.1 <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [liwc_informal]  <eos_ns>
+generated ar:<sos_a> [common] [unknown] <eos_a> <sos_r> okay i will accept that. <eos_r>
+-----------------------------------------------------------------
+user: thanks
+generated belief state:<sos_b> [common] Price_ratio 0.1 <eos_b>
+generated negotiation strategy:<sos_ns>  []  <eos_ns>
+generated ar:<sos_a> <eos_a> <sos_r> <eos_r>
+-----------------------------------------------------------------
+---------------------------------------------
+dialogue:2
+user: hi
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [politeness_seller_greet]  <eos_ns>
+generated ar:<sos_a> [common] [intro] <eos_a> <sos_r> hello <eos_r>
+-----------------------------------------------------------------
+user: I m looking to buy your car.
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:<sos_ns>  [seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller]  <eos_ns>
+generated ar:<sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> great! it is in excellent condition. i am asking [value_price_ratio] for it. <eos_r>
+-----------------------------------------------------------------
+---------------------------------------------
+dialogue:2
+user: hi
+generated belief state:<sos_b> <eos_b>
+---------------------------------------------
+dialogue:2
+user: hi
+generated belief state:<sos_b> <eos_b>
+---------------------------------------------
+dialogue:2
+user: hi
+generated belief state:<sos_b> <eos_b>
+---------------------------------------------
+dialogue:2
+user: hi
+generated belief state:<sos_b> <eos_b>
+---------------------------------------------
+dialogue:2
+user: hi
+generated belief state:<sos_b> <eos_b>
+---------------------------------------------
+dialogue:2
+user: <sos_u>hey<eos_u>
+generated belief state:<sos_b> <eos_b>
+---------------------------------------------
+dialogue:2
+user: <sos_u>hi<eos_u>
+generated belief state:<sos_b> <eos_b>
+---------------------------------------------
+dialogue:2
+user: <sos_u>hey<eos_u>
+generated belief state:<sos_b> <eos_b>
+---------------------------------------------
+dialogue:2
+user: <sos_u>hi<eos_u>
+generated belief state:<sos_b> <eos_b>
+generated ar:<sos_a> [common] [unknown] <eos_a> <sos_r> hi are you interested in the iphone? <eos_r>
+-----------------------------------------------------------------
+user: <sos_u>Yes I am<eos_u>
+generated belief state:<sos_b> <eos_b>
+generated ar:<sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> great! i m asking [value_price_ratio] for it. it s in great condition and comes with a case. <eos_r>
+-----------------------------------------------------------------
+---------------------------------------------
+dialogue:2
+user: <sos_u>Hi<eos_u>
+generated belief state:<sos_b> <eos_b>
+generated ar:<sos_a> [common] [unknown] <eos_a> <sos_r> hi are you interested in the iphone? <eos_r>
+-----------------------------------------------------------------
+---------------------------------------------
+dialogue:2
+user: hi
+generated belief state:<sos_b> <eos_b>
+generated ar:<sos_a> [common] [intro] <eos_a> <sos_r> hello <eos_r>
+-----------------------------------------------------------------
+user: I m looking to buy your bike
+generated belief state:<sos_b> <eos_b>
+generated ar:<sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> great! it s in great condition and i m looking to get [value_price_ratio] for it. <eos_r>
+-----------------------------------------------------------------

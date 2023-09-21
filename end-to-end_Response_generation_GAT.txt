@@ -1,0 +1,8 @@
+---------------------------------------------
+dialogue:2
+user: <sos_u>Hi I am interested in your bike.<eos_u>
+generated sentiment:neu
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:[seller_pos_sentiment] [-3671] [1608] [-5793] [5387] [7374] [first_person_singular_count_seller] [-3672] [1607] [-5802] [5395] [7385] [third_person_singular_seller] [-3673] [1610] [-5781] [5380] [7361] [number_of_diff_dic_pos] [-3666] [1604] [-5774] [5370] [7353] [number_of_diff_dic_neg] [-3688] [1633] [-5776] [5376] [7355] [personal_concern_seller] [-3668] [1606] [-5797] [5388] [7377] 
+generated ar:<sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> great! i am asking <price>_1.0 for it. it is in great condition and has been well maintained. <eos_r>
+-----------------------------------------------------------------

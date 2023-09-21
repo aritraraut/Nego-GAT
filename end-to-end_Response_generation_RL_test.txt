@@ -1,0 +1,12 @@
+---------------------------------------------
+dialogue:2
+user: <sos_u>hey I want to buy your car<eos_u>
+generated belief state:<sos_b> <eos_b>
+generated negotiation strategy:[seller_pos_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [personal_concern_seller] [liwc_certainty] 
+generated ar:<sos_a> [common] [init_price] Price_ratio <eos_a> <sos_r> it s a [value_price_ratio] honda odyssey minivan. it runs great no major issues and is well maintained. i m looking to get <price>_1.0 for it. <eos_r>
+-----------------------------------------------------------------
+user: <sos_u>No I cannot go beyond <price>_0.0<eos_u>
+generated belief state:<sos_b> [common] Price_ratio 0.0 <eos_b>
+generated negotiation strategy:[seller_neg_sentiment] [first_person_singular_count_seller] [third_person_singular_seller] [number_of_diff_dic_pos] [number_of_diff_dic_neg] [seller_propose] [hedge_count_seller] [factive_count_seller] [personal_concern_seller] 
+generated ar:<sos_a> [common] [counter_price] Price_ratio <eos_a> <sos_r> i m sorry but that s too low. i m willing to work with you but [value_price_ratio] is too low. i m willing to come down to <price>_0.5 but that s as low as i can authorize based on the value of the vehicle. <eos_r>
+-----------------------------------------------------------------
